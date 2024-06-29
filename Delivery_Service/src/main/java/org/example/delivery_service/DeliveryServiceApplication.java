@@ -1,0 +1,14 @@
+package org.example.delivery_service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+// тут автоматически ставится аннотация @EnableEurekaClient
+public class DeliveryServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DeliveryServiceApplication.class, args);
+    }
+
+}
